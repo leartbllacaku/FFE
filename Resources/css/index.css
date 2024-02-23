@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    width: 100%;
+}
+
+main{
+    padding-top: 10rem;
+    margin-top: 3rem;
+    width: 100%;
+    min-height: 930px;
+    background-image: url(/Resources/images/Background1.webp);
+    object-fit:cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.hero-section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.hero-section-title{
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
+.hero-section-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.service-button{
+    min-width: 120px;
+    min-height: 50px;
+    border-radius: 118px;
+    background: rgb(248, 165, 9);
+}
+
+.service-button-text{
+    color: black;
+    font-size: 1em;
+    font-weight: 700;
+}
+
+.contact-button{
+    min-width: 120px;
+    min-height: 50px;
+    border-radius: 118px;
+    background: rgb(5, 20, 68);
+    border: none;
+}
+
+.contact-button-text{
+    color: rgb(255, 255, 255);
+    font-size: 1em;
+    font-weight: 700;
+}

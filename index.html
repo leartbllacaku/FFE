@@ -3,9 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>FFE-BAU</title>
+    <link rel="stylesheet" href="Resources/css/index.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(function () {
+            $('#navbar').load('components/navbar.html', function() {
+                $('#home').addClass('active');
+            });
+            $('#footer').load('components/footer.html');
+        });
+    </script>
 </head>
 <body>
-    
+    <div id="navbar"></div>
+
+    <main>
+        <div class="hero-section">
+            <div class="hero-section-title">
+                <h1>We Are Here</h1>
+                <h1>To Make Your</h1>
+                <h1>Dream Come True</h1>
+            </div>
+            <div class="hero-section-buttons">
+                <button class="service-button">
+                    <a class="service-button-text" href="#">All Services</a>
+                </button>
+                <button class="contact-button">
+                    <a class="contact-button-text" href="#">Contact Us</a>
+                </button>
+            </div>
+        </div>
+
+        <div class="service-section">
+
+        </div>
+
+        <div class="about-section">
+
+        </div>
+
+        <div class="number-section">
+
+        </div>
+
+        <div class="project-section">
+
+        </div>
+
+        <div class="feedback-section">
+
+        </div>
+    </main>
 </body>
 </html>
